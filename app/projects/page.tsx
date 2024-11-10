@@ -1,41 +1,24 @@
-import React from "react";
-import type { Metadata } from "next";
 import { projects } from "./project-data";
+import ProjectCard from "../components/project-card";
 
-export const metadata: Metadata = {
-  title: "Projects",
-  description: "My Projects",
-};
-
-export default function Projects() {
+export default function ProjectsPage() {
   return (
-    <section>
-      <h1 className="mb-8 text-2xl font-medium tracking-tight">Projects</h1>
-      <div className="space-y-6">
-        {projects.map((project, index) => (
-          <a
-            key={index}
-            href={project.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block group hover:opacity-80 transition-opacity duration-200"
-          >
-            <div className="flex flex-col">
-              <div className="w-full flex justify-between items-baseline">
-                <span className="text-black dark:text-white font-medium tracking-tight">
-                  {project.title}
-                </span>
-                <span className="text-neutral-600 dark:text-neutral-400 tabular-nums text-sm">
-                  {project.year}
-                </span>
-              </div>
-              <p className="prose prose-neutral dark:prose-invert pt-3">
-                {project.description}
-              </p>
-            </div>
-          </a>
+    <div className="max-w-[1100px] mx-auto px-6">
+      <div className="mb-8">
+        <h1 className="text-3xl font-bold">Projects</h1>
+      </div>
+      
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        {projects.map((project) => (
+          <ProjectCard
+            key={project.title}
+            title={project.title}
+            description={project.description}
+            year={project.year}
+            url={project.url || "#"}
+          />
         ))}
       </div>
-    </section>
+    </div>
   );
 }
