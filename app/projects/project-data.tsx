@@ -25,7 +25,7 @@ export const projects: Project[] = [
     year: 2024,
     description: 
       "A serverless e-commerce platform built with AWS Lambda, S3, and API Gateway. Features full CRUD operations for product management, secure image storage, and responsive design.",
-    url: "https://github.com/Peak1260/crochet-shop",
+    url: "https://hannah-artsandcrafts.netlify.app/",
   },
   {
     title: "Mini Garage Door",
