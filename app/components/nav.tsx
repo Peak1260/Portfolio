@@ -2,6 +2,7 @@ import Link from "next/link";
 import { metaData } from "../config";
 
 const navItems = {
+  "/experience": { name: "Experiences" },
   "/skills": { name: "Skills" },
   "/projects": { name: "Projects" },
   "/coursework": { name: "Coursework" },
