@@ -7,6 +7,13 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    title: "LCD Volume Bar",
+    year: 2024,
+    description: 
+      "Implemented a hierarchical state machine on Xilinx Artix-7 FPGA using QP Nano framework. Features rotary encoder integration with debouncing and real-time volume bar visualization on an LCD display.",
+    url: "https://youtu.be/AUGEYYG1B_s?si=CCIdHl_tRixV05ta",
+  },
+  {
     title: "MoneyTracker Website",
     year: 2024,
     description: 
@@ -14,11 +21,18 @@ export const projects: Project[] = [
     url: "https://moneytracker-5ad6b.web.app",
   },
   {
-    title: "Garage Door Controller",
+    title: "Crochet Shop",
+    year: 2024,
+    description: 
+      "A serverless e-commerce platform built with AWS Lambda, S3, and API Gateway. Features full CRUD operations for product management, secure image storage, and responsive design.",
+    url: "https://github.com/Peak1260/crochet-shop",
+  },
+  {
+    title: "Mini Garage Door",
     year: 2024,
     description:
-      "An STM32-based smart garage door system utilizing accelerometer, stepper motor, and temperature sensors. Features optimized UART commands, SPI display integration, and I2C temperature monitoring.",
-    url: "",
+      "An STM32-based garage door system utilizing accelerometer, stepper motor, and temperature sensors. Features optimized UART commands, SPI display integration, and I2C temperature monitoring.",
+    url: "https://youtube.com/shorts/ZiEfbAlhHbw?si=-StQ1hJoBHUKk3U6",
   },
   {
     title: "Pipeline Processor",
@@ -39,7 +53,7 @@ export const projects: Project[] = [
     year: 2023,
     description:
       "A Verilog-based finite state machine implementation for Ford Thunderbird sequential taillights, demonstrated through FPGA programming and circuit construction.",
-    url: "",
+    url: "https://youtu.be/cghLAF-14a0?si=YELl_EWRi26JehNB",
   },
   {
     title: "Online Poker Platform",
@@ -60,6 +74,6 @@ export const projects: Project[] = [
     year: 2019,
     description:
       "A Unity 3D racing game featuring six unique maps, vehicle customization, and performance tracking. Includes lap counter, race timer, and multiple vehicle options.",
-    url: "",
+    url: "https://github.com/Peak1260/Racing-Game",
   },
 ];
