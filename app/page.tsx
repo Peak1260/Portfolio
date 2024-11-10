@@ -15,7 +15,7 @@ export default function LandingPage() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="text-5xl font-bold mb-2"
+          className="text-5xl font-bold mb-2 text-center"
         >
           Peak Manopchantaroj
         </motion.h1>
@@ -23,7 +23,7 @@ export default function LandingPage() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="text-2xl mb-8 text-neutral-600 dark:text-neutral-400"
+          className="text-2xl mb-8 text-neutral-600 dark:text-neutral-400 text-center"
         >
           Computer Engineer
         </motion.h2>
@@ -34,7 +34,7 @@ export default function LandingPage() {
         >
           <Link
             href="/home"
-            className="text-neutral-400 hover:text-white transition-colors duration-300 text-lg hover:scale-110 transform inline-block hover:font-semibold"
+            className="text-neutral-400 text-center hover:text-white transition-colors duration-300 text-lg hover:scale-110 transform inline-block hover:font-semibold"
           >
             Enter Site →
           </Link>
