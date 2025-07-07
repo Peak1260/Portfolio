@@ -7,7 +7,6 @@ import {
   FaLinkedinIn,
   FaYoutube
 } from "react-icons/fa6";
-import { TbMailFilled } from "react-icons/tb";
 import { metaData, socialLinks } from "app/config";
 
 const YEAR = new Date().getFullYear();
@@ -27,7 +26,6 @@ function SocialLinks() {
       <SocialLink href={socialLinks.instagram} icon={FaInstagram} />
       <SocialLink href={socialLinks.linkedin} icon={FaLinkedinIn} />
       <SocialLink href={socialLinks.youtube} icon={FaYoutube} />
-      <SocialLink href={socialLinks.email} icon={TbMailFilled} />
     </div>
   );
 }
