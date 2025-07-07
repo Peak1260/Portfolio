@@ -21,7 +21,7 @@ export const projects: Project[] = [
     url: "https://moneytracker-5ad6b.web.app",
   },
   {
-    title: "Crochet Shop",
+    title: "Arts and Crafts Shop",
     year: 2024,
     description: 
       "A serverless e-commerce platform built with AWS Lambda, S3, and API Gateway. Features full CRUD operations for product management, secure image storage, and responsive design.",
@@ -38,14 +38,7 @@ export const projects: Project[] = [
     title: "Pipeline Processor",
     year: 2024,
     description:
-      "A RISC-V pipeline processor implemented in Verilog with branch prediction capabilities, achieving 15% faster execution time through optimized cycle management.",
-    url: "",
-  },
-  {
-    title: "Calculator Compiler",
-    year: 2023,
-    description:
-      "A C++ based calculator interpreter featuring custom lexer and parser implementation with robust error handling and abstract syntax tree processing.",
+      "A RISC-V pipeline processor implemented in Verilog with branch prediction capabilities, achieving 65% hit rate through optimized cycle management and global history predictor.",
     url: "",
   },
   {

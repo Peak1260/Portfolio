@@ -32,6 +32,14 @@ export default function CourseworkPage() {
                 {
                     code: "CS 177",
                     description: "Analysis of technical difficulties in producing secure computer information systems that provide guaranteed controlled sharing. Examination and critique of current systems, methods, and certification."
+                },
+                {
+                    code: "CS 176A",
+                    description: "Basic concepts in networking, the OSI model, error detection codes, flow control, routing, medium access control, and high-speed networks"
+                },
+                {
+                    code: "CS 190J",
+                    description: "Introduction to network science and its applications. Topics include network structure, dynamics, and algorithms, with a focus on real-world applications in social networks, biological networks, and technological networks."
                 }
             ]
         },
@@ -65,6 +73,10 @@ export default function CourseworkPage() {
                 {
                     code: "ECE 157A, 157B",
                     description: "Introduces an artificial intelligence system view to apply machine learning to improve hardware design and test automation processes."
+                },
+                {
+                    code: "ECE 152B",
+                    description: "Design methodologies of digital systems, the register and processor levels. Design of functional subsystems, including arithmetic processors, hardwired and microprogrammed control units, memory systems, and bussing systems."
                 }
             ]
         }
