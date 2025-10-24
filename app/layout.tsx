@@ -14,12 +14,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={cx(GeistSans.variable, GeistMono.variable)}>
+    // We've permanently added the "dark" class here
+    <html lang="en" className={cx(GeistSans.variable, GeistMono.variable, "dark")}>
       <body className="antialiased flex flex-col items-center justify-center mx-auto mt-2 lg:mt-8 mb-20 lg:mb-40">
         <ThemeProvider
           attribute="class"
-          defaultTheme="system"
-          enableSystem
           disableTransitionOnChange
         >
           <LayoutWrapper>
