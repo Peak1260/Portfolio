@@ -131,16 +131,6 @@ export default function HomePage() {
         >
           Computer Engineer
         </motion.h2>
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.4 }}
-          className="absolute bottom-20"
-        >
-          <span className="text-neutral-500 text-center transition-colors duration-300 text-lg text-sky-400">
-            ↓ Scroll Down ↓
-          </span>
-        </motion.div>
       </div>
 
       {/* About Me Section */}
