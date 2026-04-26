@@ -183,43 +183,42 @@ export default function HomePage() {
         </h1>
         <div className="flex flex-col gap-16">
           <Section>
+            <h2 className="text-xl font-bold text-orange-500">Data Labeling Analyst II (Contractor at Meta)</h2>
+            <p className="text-neutral-400">Tundra Technical Solutions · Remote</p>
+            <p className="text-neutral-500">July 2024 - Sept 2024</p>
+            <ul className="list-disc list-inside space-y-2 text-neutral-300 mt-4">
+              <li>
+                Served as a subject matter expert on labeling workflows and guidelines, conducting quality audits, and providing insights to improve labeling accuracy and efficiency for AI-driven solutions.
+              </li>
+              <li>
+                Collaborated with Meta&apos;s Product Data Operations team to resolve technical issues, implement data quality workflow updates, and support continuous refinement of data annotation tools.
+              </li>
+            </ul>
+          </Section>
+          <Section>
             <h2 className="text-xl font-bold text-orange-500">Data Engineer Intern</h2>
             <p className="text-neutral-400">Forsys · Milpitas, CA</p>
             <p className="text-neutral-500">July 2024 - Sept 2024</p>
             <ul className="list-disc list-inside space-y-2 text-neutral-300 mt-4">
               <li>
-                Converted customers&apos; legacy codebases to modern database
-                platforms using the Flodata ETL tool. Designed data pipelines to
-                ensure seamless migration, enhance workflow, and minimize manual
-                efforts by 80%.
+                Migrated clients&apos; legacy codebases to modern database platforms using Flodata ETL, designing automated data pipelines that reduced time to market by 50% and ensured seamless transition with zero critical downtime.
               </li>
               <li>
-                Performed data integration for 15 SAP tables into Oracle
-                database using REST API calls, converting data to XML, parsing
-                values, and executing nightly full loads by truncating and
-                reloading SQL tables.
+                Performed data integration for 15+ SAP tables into Oracle database by scripting REST API calls and transforming responses to XML, enabling automated nightly ETL jobs that refreshed data pipelines across SQL tables.
               </li>
             </ul>
           </Section>
           <Section>
   
             <h2 className="text-xl font-bold text-orange-500">Frontend Developer</h2>
-            {/* Adjusted secondary text color */}
             <p className="text-neutral-400">EZessence · Redwood City, CA</p>
-            {/* Adjusted tertiary text color */}
             <p className="text-neutral-500">June 2023 - June 2024</p>
-             {/* Adjusted list text color */}
             <ul className="list-disc list-inside space-y-2 text-neutral-300 mt-4">
               <li>
-                Developed a responsive e-commerce website with ReactJS, HTML,
-                CSS, and JavaScript to improve user experience, foster customer
-                relationships, and drive sustained business growth.
+                Developed a responsive e-commerce website with React, HTML, CSS, and JavaScript to improve user experience, foster customer relationships, and directly increase storefront visits.
               </li>
               <li>
-                Created innovative spreadsheets for pricing and profitability
-                analysis, enabling data-driven procurement. Executed daily
-                purchases to replenish inventory, resulting in a 20% revenue
-                increase on Amazon Seller Central.
+                Automated pricing analysis via spreadsheet tools to identify profitable SKUs and replenish inventory daily, driving a 20% revenue increase on Amazon Seller Central.
               </li>
             </ul>
           </Section>
