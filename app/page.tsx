@@ -181,12 +181,12 @@ export default function HomePage() {
         <h1 className="text-3xl font-bold tracking-tight mb-8 text-sky-400 text-center">
           Work Experience
         </h1>
-        <div className="flex flex-col gap-16">
+        <div className="flex flex-col gap-8">
           <Section>
             <h2 className="text-xl font-bold text-orange-500">Data Labeling Analyst II (Contractor at Meta)</h2>
             <p className="text-neutral-400">Tundra Technical Solutions · Remote</p>
-            <p className="text-neutral-500">July 2024 - Sept 2024</p>
-            <ul className="list-disc list-inside space-y-2 text-neutral-300 mt-4">
+            <p className="text-neutral-500">Oct 2025 - Apr 2026</p>
+            <ul className="list-disc list-inside space-y-1 text-neutral-300 mt-4">
               <li>
                 Served as a subject matter expert on labeling workflows and guidelines, conducting quality audits, and providing insights to improve labeling accuracy and efficiency for AI-driven solutions.
               </li>
@@ -199,7 +199,7 @@ export default function HomePage() {
             <h2 className="text-xl font-bold text-orange-500">Data Engineer Intern</h2>
             <p className="text-neutral-400">Forsys · Milpitas, CA</p>
             <p className="text-neutral-500">July 2024 - Sept 2024</p>
-            <ul className="list-disc list-inside space-y-2 text-neutral-300 mt-4">
+            <ul className="list-disc list-inside space-y-1 text-neutral-300 mt-4">
               <li>
                 Migrated clients&apos; legacy codebases to modern database platforms using Flodata ETL, designing automated data pipelines that reduced time to market by 50% and ensured seamless transition with zero critical downtime.
               </li>
@@ -213,7 +213,7 @@ export default function HomePage() {
             <h2 className="text-xl font-bold text-orange-500">Frontend Developer</h2>
             <p className="text-neutral-400">EZessence · Redwood City, CA</p>
             <p className="text-neutral-500">June 2023 - June 2024</p>
-            <ul className="list-disc list-inside space-y-2 text-neutral-300 mt-4">
+            <ul className="list-disc list-inside space-y-1 text-neutral-300 mt-4">
               <li>
                 Developed a responsive e-commerce website with React, HTML, CSS, and JavaScript to improve user experience, foster customer relationships, and directly increase storefront visits.
               </li>
