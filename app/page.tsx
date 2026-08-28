@@ -184,7 +184,7 @@ export default function HomePage() {
         <div className="flex flex-col gap-8">
           <Section>
             <h2 className="text-xl font-bold text-orange-500">Associate Quality Assurance Engineer</h2>
-            <p className="text-neutral-400">Veeva Systems</p>
+            <p className="text-neutral-400">Veeva Systems · Pleasanton, CA</p>
             <p className="text-neutral-500">Apr 2026 - Present</p>
             <ul className="list-disc list-inside space-y-1 text-neutral-300 mt-4">
               <li>
