@@ -21,11 +21,11 @@ export const projects: Project[] = [
     url: "https://moneytracker-5ad6b.web.app",
   },
   {
-    title: "Arts and Crafts Shop",
+    title: "Plant Shop",
     year: 2024,
     description: 
-      "A serverless e-commerce platform built with AWS Lambda, S3, and API Gateway. Features full CRUD operations for product management, secure image storage, and responsive design.",
-    url: "https://hannah-artsandcrafts.netlify.app/",
+      "A serverless platform built with AWS Lambda, S3, and API Gateway. Features full CRUD operations for product management, secure image storage, and responsive design.",
+    url: "https://hannah-plantshop.netlify.app/",
   },
   {
     title: "Mini Garage Door",

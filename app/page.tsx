@@ -183,6 +183,16 @@ export default function HomePage() {
         </h1>
         <div className="flex flex-col gap-8">
           <Section>
+            <h2 className="text-xl font-bold text-orange-500">Associate Quality Assurance Engineer</h2>
+            <p className="text-neutral-400">Veeva Systems</p>
+            <p className="text-neutral-500">Apr 2026 - Present</p>
+            <ul className="list-disc list-inside space-y-1 text-neutral-300 mt-4">
+              <li>
+                Validate new generative AI features for Vault CRM's Media Agent, ensuring sales representatives can seamlessly query and surface presentation materials. Perform end-to-end API testing using Swagger endpoints while analyzing Kibana logs and Jaeger UI traces to evaluate LLM response accuracy and backend system reliability.
+              </li>
+            </ul>
+          </Section>
+          <Section>
             <h2 className="text-xl font-bold text-orange-500">Data Labeling Analyst II (Contractor at Meta)</h2>
             <p className="text-neutral-400">Tundra Technical Solutions · Remote</p>
             <p className="text-neutral-500">Oct 2025 - Apr 2026</p>
